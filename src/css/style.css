@@ -1,0 +1,36 @@
+html, body {
+	width: 100%;
+	margin: 0;
+  height: 100%;
+}
+
+.header, .content {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  width: 600px;
+  margin-bottom: 0;  
+}
+
+.board {  
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;  
+  cursor: url('../img/hummer.png'), auto;
+ }
+ 
+.cell {
+  width: 110px;
+  height: 110px;
+  margin: 0 15px 20px;
+  background: rgb(187, 187, 36);
+  border: 3px solid black;
+   
+}
+
+.status {
+  font-size: 20px;
+  margin-bottom: 20px;
+}

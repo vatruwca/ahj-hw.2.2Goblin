@@ -1,0 +1,50 @@
+.hit_control, .fail_control {
+    color: rgb(128, 13, 222);
+    font-size: 40px;
+    margin: 0 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .button {
+    min-width: 100px;
+    border: 1px solid rgb(212, 172, 27);
+    padding: 15px;
+    background-color: #fff;
+    font-size: 20pt;
+    border-radius: 15px;
+    color: #000;
+  }
+  
+  .button:hover {
+    background-color: rgb(210, 216, 24);
+    color: rgb(16, 16, 240);
+    box-shadow: 2px 1px 0 rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .button:active {
+    box-shadow: inset 2px 1px 0;
+  }  
+  
+  .modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal_window {
+    position: relative;
+    top: 35%;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px 20px 20px;
+    background-color: #34bcd4;
+    text-align: center;
+  }
+  
