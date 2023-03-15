@@ -28,6 +28,7 @@ export default class CoblinPlay {
     if (ev.target.className.includes('cell_goblin')) {
       this.countHits += 1;
       this.hitControl.textContent = this.countHits;
+      this.goblin.deactivateCell();
     } else if (ev.target.classList.contains('cell')) {
       this.countFails += 1;
       this.failControl.textContent = this.countFails;
